@@ -24,7 +24,7 @@
        {:margin-left 0
         :margin-right 0}]]
 
-     [:container
+     [:.container
       [:.one
        [:.columns :.columns {:width "40px"}]]
       [:.two
