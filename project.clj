@@ -7,4 +7,5 @@
                  [hiccup "1.0.3"]
                  [clj-style "1.0.1"]]
   :resource-paths ["posts"
-                   "public"])
+                   "public"
+                   "src/wombat/assets"])
