@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [hiccup "1.0.3"]
-                 [clj-style "1.0.1"]]
+                 [garden "0.1.0-beta3"]
+                 ]
   :resource-paths ["posts"
                    "public"
                    "src/wombat/assets"])
