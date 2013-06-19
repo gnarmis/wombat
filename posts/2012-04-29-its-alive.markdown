@@ -1,0 +1,19 @@
+---
+layout: post
+title: "It's Alive!"
+date: 2012/04/29 15:15:37 -0700
+comments: false
+external-url:
+categories:
+---
+[http://getsoundboard.com][1]   
+  
+Me and Jon are finally at the stage where we can start showing off our   
+idea called SoundBoard, which was conceived and well received at a   
+hackathon last weekend. After talking about it with several great   
+people at TEDxUChicago, we feel the need to learn as much as possible   
+about how people use it. We have also put up a link on the site to   
+allow easy feedback, so be sure to check it out and tell us what you   
+think!
+
+[1]: http://getsoundboard.com

@@ -1,6 +1,8 @@
-# wombat
+# Wombat
 
-A Clojure library designed to ... well, that part is up to you.
+Yet another static blog generator, in the spirit of Jekyll, Hakyll,
+etc, with Markdown post creation, Hiccup-based HTML rendering, and
+Gaka-based styling.
 
 ## Usage
 
