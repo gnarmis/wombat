@@ -137,6 +137,17 @@ behavior.
 
 As such, this method of organization seems compelling enough to explore.
 
+**A different take...**
+
+Actually, we don't need to define the above data structure. We could
+simply use Hiccup all the way, and sprinkle in the `style` tag with
+the appopriate CSS at the beginning of the given node. So, this
+approach would only involve be a sort of convention of organization.
+Maybe we could extract common functionality into a macro.
+
+An example of this is provided in the commit in which this text was
+added.
+
 ## Usage
 
 FIXME
