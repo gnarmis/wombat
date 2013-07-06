@@ -1,7 +1,8 @@
 (ns wombat.core
   (:require [hiccup.core :refer [html]]
             [hiccup.page :refer [html5]]
-            [garden.core :refer [css]]))
+            [garden.core :refer [css]])
+  (:use markdown.core))
 
 
 (defn list-of-posts
@@ -36,9 +37,18 @@
    [:body
     body]))
 
-(->> (list-of-posts)
+(comment
+
+  ;; Writing to file
+  
+  (->> (list-of-posts)
      (index-body :list-posts)
      (index-page :body)
      (html5)
      (spit "public/index.html"))
 
+  ;; markdown to html
+  
+  (md-to-html-string "# heading\n")
+
+  )
