@@ -3,7 +3,7 @@ layout: post
 title: "Moving From Posterous to Github Pages"
 date: 2012-09-14 02:27
 comments: true
-categories: 
+categories: updates
 ---
 
 Ever since Posterous was acquired by Twitter, I'd been meaning to ditch the service for something better. While it was convenient to post by email and enjoyable to forget about hosting, I missed controlling the structure of my raw posts and the site's design.

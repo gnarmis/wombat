@@ -4,7 +4,7 @@ title: "Cozy: a Database-less RESTful Layer"
 date: 2011/07/06 16:35:00 -0700
 comments: false
 external-url:
-categories:
+categories: [ruby, projects]
 ---
 
 

@@ -4,7 +4,7 @@ title: "Primes and Sieves"
 date: 2011/06/27 22:39:00 -0700
 comments: false
 external-url:
-categories:
+categories: [euler, ruby]
 ---
 
 
@@ -27,6 +27,27 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143 ?
 
 And here's my solution (skip if you want to try this yourself!):
+
+``` ruby
+def maxPrimeFactor(n) #=> maxPrimeFactor(600851475143) => 6857 in 2007.562 ms
+  # limit the ridiculous range safely
+  range = n**(1/Math.sqrt(n.to_s.length).floor.to_f)
+  ary = (1..range).to_a
+  # Sieve of Eratosthenes (replace with Sieve of Atkin?)
+  for i in ary
+    for j in ary
+      if i != j
+        if (j % i == 0)
+          ary.delete(j)
+        end
+      end
+    end
+  end
+  #remove non-factor primes
+  ary.delete_if{|k| ( n % k != 0)}
+  ary.max
+end
+```
 
 The code should be pretty much clear, at least except for that initial part 
 where I restrict the range. It was hard getting my super-easy-to-write-yet-inefficient 

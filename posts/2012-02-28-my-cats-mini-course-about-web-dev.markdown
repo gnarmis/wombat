@@ -4,7 +4,7 @@ title: "My CATS mini-course about web dev"
 date: 2012/02/28 12:34:00 -0800
 comments: false
 external-url:
-categories:
+categories: talks
 ---
 
 

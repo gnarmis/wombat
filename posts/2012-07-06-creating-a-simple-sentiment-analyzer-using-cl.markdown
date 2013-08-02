@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Creating a simple sentiment analyzer using Clojure"
+title: "Sentimental: A Simple Sentiment Analyzer in Clojure"
 date: 2012/07/06 17:49:00 -0700
 comments: true
 external-url:
-categories:
+categories: [clojure, projects]
 ---
 
 

@@ -4,7 +4,7 @@ title: "my hackathon experience last weekend"
 date: 2012/04/26 23:23:00 -0700
 comments: false
 external-url:
-categories:
+categories: hacknu
 ---
 
 

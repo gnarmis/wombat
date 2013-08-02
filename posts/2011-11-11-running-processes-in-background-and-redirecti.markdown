@@ -4,7 +4,7 @@ title: "Running processes in background and redirecting to file"
 date: 2011/11/11 12:15:00 -0800
 comments: false
 external-url:
-categories:
+categories: snippets
 ---
 
 

@@ -4,7 +4,7 @@ title: "Model Checking"
 date: 2012/04/12 18:20:00 -0700
 comments: false
 external-url:
-categories:
+categories: quotes
 ---
 
 

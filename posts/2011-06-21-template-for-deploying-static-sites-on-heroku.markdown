@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Template for Deploying Static Sites on Heroku"
+title: "staticRack: Template for Deploying Static Sites on Heroku"
 date: 2011/06/21 21:20:00 -0700
 comments: false
 external-url:
-categories:
+categories: [webdev, projects]
 ---
 
 

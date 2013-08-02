@@ -4,7 +4,7 @@ title: "Finally Found a Good Notebook App"
 date: 2011/06/17 19:00:00 -0700
 comments: false
 external-url:
-categories:
+categories: productivity
 ---
 
 

@@ -4,7 +4,7 @@ title: "A modular, test-driven Sinatra template"
 date: 2012/03/02 17:28:00 -0800
 comments: false
 external-url:
-categories:
+categories: [ruby, webdev, projects]
 ---
 
 

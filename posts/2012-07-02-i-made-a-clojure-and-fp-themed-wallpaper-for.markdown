@@ -4,7 +4,7 @@ title: "I made a Clojure and FP themed wallpaper for myself"
 date: 2012/07/02 15:14:00 -0700
 comments: true
 external-url:
-categories:
+categories: clojure
 ---
 
 

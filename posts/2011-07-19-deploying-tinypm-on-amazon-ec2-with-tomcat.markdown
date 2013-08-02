@@ -4,7 +4,7 @@ title: "Deploying TinyPM on Amazon EC2 with Tomcat"
 date: 2011/07/19 20:04:00 -0700
 comments: false
 external-url:
-categories:
+categories: [webdev, devops]
 ---
 
 

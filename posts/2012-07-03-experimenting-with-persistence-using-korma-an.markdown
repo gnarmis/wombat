@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Experimenting with persistence using Korma and Lobos"
+title: "Korma-Lobos-Tpl: Experimenting with persistence using Korma and Lobos"
 date: 2012/07/03 20:47:00 -0700
 comments: true
 external-url:
-categories:
+categories: [clojure, projects]
 ---
 
 
@@ -15,7 +15,7 @@ back your various schema changes. Lobos is a little library (among a few) that
 tries to do this, but seeing only a few examples [here][3] and [there][4], 
 I decided to make my own little template that explores this.
 
-So, here's the repo: https://github.com/gnarmis/korma-lobos-tpl
+So, here's the repo: [http://github.com/gnarmis/korma-lobos-tpl](http://github.com/gnarmis/korma-lobos-tpl).
 
 I did run into an issue trying to find out how to do the classic "alter" SQL 
 command to add a column using Lobos. Turns out, just try `(doc alter)` after 

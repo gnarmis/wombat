@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "My first (extremely simple) Chrome extension!"
+title: "Sherlock: A Chrome extension to Search Inconvenient Websites"
 date: 2011/12/16 00:17:00 -0800
 comments: false
 external-url:
-categories:
+categories: projects
 ---
 
 

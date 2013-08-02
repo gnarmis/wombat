@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "A brief foray into deploying Clojure libraries"
+title: "Snowball Stemmer: Deploying a Simple Clojure Wrapper"
 date: 2012/07/05 13:50:00 -0700
 comments: true
 external-url:
-categories:
+categories: [clojure, projects]
 ---
 
 
