@@ -1,0 +1,188 @@
+/* # Base Styles */
+
+/* ## Base Typography */
+
+/* ### Font Families */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,900|Merriweather:400,400italic,700,700italic,900,900italic,300italic);
+
+
+body {
+    font-family: "Merriweather", "Times", serif;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code {
+    font-family: "Source Code Pro", sans-serif;
+}
+
+header, footer {
+    font-family: "Source Code Pro", sans-serif;
+}
+
+
+/* ### Font Styling */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+    line-height: 1.0em;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+pre, code {
+    font-weight: 200;
+    background-color: #eee;
+    padding: 0.25em;
+    
+}
+
+footer {
+    text-transform: capitalize;
+}
+
+footer a, footer a:hover, footer a:focus,
+footer a:active {
+    font-style: normal;
+    padding: 0.15em;
+    margin: 0.35em;
+}
+
+article {
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.meta {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.00em;
+}
+
+/* ### Text Overflow */
+
+body {
+    overflow-x: hidden;
+}
+
+header, article, p, #article-text {
+    overflow: inherit;
+}
+
+
+/* ### Link Styling */
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+a, a:focus, a:hover, a:active, a:visited {
+    color: #000;
+    /*font-style: italic;*/
+    font-family: "Source Code Pro", sans-serif;
+    font-weight: 200;
+}
+
+/* ## Layout Styles */
+
+
+/* ### Margins and Padding */
+
+body, article, header, nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+
+footer {
+    margin-bottom: 3.0em;
+}
+
+h1 {
+    margin-bottom: 0.25em;
+}
+
+#article-text {
+    margin-top: 0.75em;
+}
+
+/* ### Sizing */
+
+body {
+    max-width: 756px;
+}
+
+article {
+    max-width: 720px;
+}
+
+
+
+
+/* ## Goodies */
+
+
+blockquote {
+    border-left: 10px #eee solid;
+    margin-left: 0px;
+    padding-left: 2.0em;
+}
+
+/* Glyph, by Harry Roberts */
+		
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
+    margin: 0.75em 0px 0px;
+    padding: 0px;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-size: 1.0em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+#post-list {
+    padding: 0;
+    margin: 0;
+}
+
+#post-list li {
+    margin-bottom: 1.5em;
+}
