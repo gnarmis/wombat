@@ -6,7 +6,7 @@ comments: true
 categories: [projects, ruby]
 ---
 
-Today, I cleaned up an earlier project I'd left hanging around called [Colby][1]. It's a little
+Today, I cleaned up an earlier project I'd left hanging around called [Colby][colby]. It's a little
 wrapper around the data structures that the Hamster gem provides, and it adds some functions
 to make working with those data structures a little similar to the Clojure-way.
 
@@ -14,8 +14,9 @@ At this point, Colby is very experimental and is only at a `0.0.1` release to re
 brittleness. However, all specs pass currently and it's useable as-is. I've pushed the initial
 release to RubyGems, so you can start using Colby by just doing `gem install colby`.
 
-Comments welcome! I realize this may be a bit simple compared to [rouge][2], which is an awesome
+Comments welcome! I realize this may be a bit simple compared to [rouge][rouge], which is an awesome
 project, but I'll keep this around for my own edification.
 
-[1]: http://github.com/gnarmis/colby
-[2]: http://github.com/rouge-lang/rouge
+[colby]: http://github.com/gnarmis/colby
+
+[rouge]: http://github.com/rouge-lang/rouge
