@@ -44,20 +44,20 @@ h2 {
 }
 
 h3 {
-    font-size: 2.1em;
+    font-size: 1.8em;
     font-weight: 700;
 }
 
 h4 {
-    font-size: 1.9em;
+    font-size: 1.6em;
 }
 
 h5 {
-    font-size: 1.75em;
+    font-size: 1.5em;
 }
 
 h6 {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 pre, code {
@@ -103,7 +103,7 @@ header, article, p, #article-text {
 
 html {
     color: #2f2f2f;
-    background-color: #fafafa;
+    background-color: #f9f9f9;
 }
 
 
@@ -182,25 +182,25 @@ blockquote {
 
 /* Glyph, by Harry Roberts */
 		
-hr {
+hr.foot {
     padding: 0;
     border: none;
     border-top: medium double #333;
     color: #333;
     text-align: center;
     width: 100%;
-    max-width: 720px;
+    max-width: inherit;
     margin: 0.75em 0px 0px;
     padding: 0px;
 }
-hr:after {
+hr.foot:after {
     content: "§";
     display: inline-block;
     position: relative; 
     top: -0.7em;  
     font-size: 1.0em;
     padding: 0 0.25em;
-    background: white;
+    background: #f9f9f9;
 }
 
 #post-list {
