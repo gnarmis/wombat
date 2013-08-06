@@ -11,7 +11,7 @@ body {
     font-family: "Merriweather", "Times", serif;
 }
 
-h1, h2, h3, h4, h5, h6, code {
+h1, h2, h3, h4, h5, h6, pre, code {
     font-family: "Source Code Pro", sans-serif;
 }
 
@@ -67,7 +67,7 @@ h6 {
     font-size: 1.4em;
 }
 
-code {
+pre, code {
     font-weight: 200;
     background-color: #eee;
     padding: 0.1em;
