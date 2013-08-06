@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Colby: Small Wrapper and Functions for Persistent, Immutable Data Structures
+author: gnarmis
 date: 2013-01-11 17:52
 tags: projects, ruby
 ---

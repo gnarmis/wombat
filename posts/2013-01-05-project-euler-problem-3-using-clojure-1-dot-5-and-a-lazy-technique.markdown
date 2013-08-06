@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Project Euler Problem 3 using Clojure 1.5 and a lazy technique
+author: gnarmis
 date: 2013-01-05 12:36
 tags: clojure, euler
 ---
@@ -21,42 +22,41 @@ Here's my lazy, functional implementation using Clojure 1.5 RC1
 pretty efficient: less than a quarter of a second on my 2011 13" base
 MBP!
 
-```clojure
-(ns euler.three
- (require [clojure.core.reducers :as r]))
 
-(declare largest-prime-factor-for)
-(declare factors-of)
-(declare source-factors)
-(declare source-naturals)
-(declare factor?)
-(declare prime?)
-(declare certainty)
+    (ns euler.three
+     (require [clojure.core.reducers :as r]))
 
-(defn answer []
-  (time (largest-prime-factor-for 600851475143)))
+    (declare largest-prime-factor-for)
+    (declare factors-of)
+    (declare source-factors)
+    (declare source-naturals)
+    (declare factor?)
+    (declare prime?)
+    (declare certainty)
 
-(defn largest-prime-factor-for [n]
-  (let [prime-factors (r/filter prime?
-                                (factors-of n))]
-    (last (into [] prime-factors))))
+    (defn answer []
+      (time (largest-prime-factor-for 600851475143)))
 
-(defn factors-of [n]
-  (r/filter #(factor? n %)
-            (source-factors n)))
+    (defn largest-prime-factor-for [n]
+      (let [prime-factors (r/filter prime?
+                                    (factors-of n))]
+        (last (into [] prime-factors))))
 
-(defn source-factors [n]
-  (r/take-while #(< % (int (Math/sqrt n)))
-                (source-naturals)))
+    (defn factors-of [n]
+      (r/filter #(factor? n %)
+                (source-factors n)))
 
-(defn source-naturals []
-  (r/map #(+ % 2) (range)))
+    (defn source-factors [n]
+      (r/take-while #(< % (int (Math/sqrt n)))
+                    (source-naturals)))
 
-(defn factor? [n possib]
-  (zero? (mod n possib)))
+    (defn source-naturals []
+      (r/map #(+ % 2) (range)))
 
-(defn prime? [n]
-  (.isProbablePrime (BigInteger/valueOf n) certainty))
+    (defn factor? [n possib]
+      (zero? (mod n possib)))
 
-(def certainty 10)
-```
+    (defn prime? [n]
+      (.isProbablePrime (BigInteger/valueOf n) certainty))
+
+    (def certainty 10)
