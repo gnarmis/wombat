@@ -70,7 +70,14 @@ h6 {
 pre, code {
     font-weight: 200;
     background-color: #eee;
+}
+
+code {
     padding: 0.1em;
+}
+
+pre {
+    padding: 0.7em;
 }
 
 footer {
@@ -103,6 +110,11 @@ body {
 
 header, article, p, #article-text {
     overflow: inherit;
+}
+
+pre {
+    overflow-x: scroll;
+    max-width: inherit;
 }
 
 /* ## Color Choices */
