@@ -38,6 +38,4 @@ want to explore it further. Any updates will be up on our launch-rock
 page at [http://soundingboard.heroku.com][1], and emailed to everyone
 who's signed up to our mailing list!
 
-
-
 [1]: http://soundingboard.heroku.com
